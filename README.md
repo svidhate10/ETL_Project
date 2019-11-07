@@ -12,14 +12,22 @@ CareerVillage.org has provided several years of anonymized data and each file co
 answer_scores.csv answers.csv comments.csv emails.csv group_memberships.csv groups.csv matches.csv professionals.csv question_scores.csv questions.csv school_memberships.csv students.csv tag_questions.csv tag_users.csv tags.csv
 
 ETL Process step by step process:
+
+
 Extract:
 
 1.Read CSV file from the source link
+
 2.Created notebook code to read CSV file
+
+
 Transform:
 
 1.Create ERD diagram to build primary key and foreign key relationship.
+
 2.Create script to build postgres database.
 3.Write python code to read csv from local folder and add index and change date format and save file to postgres table. Load:
+
 4.Import CSV files into postgres database tables.
+
 5.Write queries to perform analysis and aggregate data
