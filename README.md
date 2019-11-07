@@ -16,18 +16,18 @@ ETL Process step by step process:
 
 Extract:
 
-1.Read CSV file from the source link
+  1.Read CSV file from the source link
 
-2.Created notebook code to read CSV file
+  2.Created notebook code to read CSV file
 
 
 Transform:
 
-1.Create ERD diagram to build primary key and foreign key relationship.
+  1.Create ERD diagram to build primary key and foreign key relationship.
 
-2.Create script to build postgres database.
-3.Write python code to read csv from local folder and add index and change date format and save file to postgres table. Load:
+  2.Create script to build postgres database.
+  3.Write python code to read csv from local folder and add index and change date format and save file to postgres table. Load:
 
-4.Import CSV files into postgres database tables.
+  4.Import CSV files into postgres database tables.
 
-5.Write queries to perform analysis and aggregate data
+  5.Write queries to perform analysis and aggregate data
